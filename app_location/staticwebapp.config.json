@@ -3,6 +3,10 @@
       {
         "route": "/LoggedIn*",
         "allowedRoles": ["authenticated"]
+      },
+      {
+        "route": "/LockedDown*",
+        "allowedRoles": ["reader"]
       }
     ],
     "responseOverrides": {
